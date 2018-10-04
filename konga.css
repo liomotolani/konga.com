@@ -108,11 +108,29 @@ header :after{
 }
 #bigimg{
     width:66.6%;
+    height:auto;
 }
 #smallimg{
     width:33.3%;
 }
 img{
     max-width: 100%;
-    height: auto;
+}
+.grid1{
+    max-width: 100%;
+    display: inline-block;
+}
+.home{
+    height: 100%;
+    width: 20%;
+}
+.home li{
+    list-style-type: none;
+    padding: 5px;
+}
+.home a{
+text-decoration: none;
+}
+.homeimg{
+    width:15%;
 }
